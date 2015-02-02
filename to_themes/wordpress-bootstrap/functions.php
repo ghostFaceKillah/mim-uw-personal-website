@@ -707,8 +707,9 @@ function wp_bootstrap_filter_ptags_on_images( $content ){
 }
 add_filter( 'the_content', 'wp_bootstrap_filter_ptags_on_images' );
 
+// ALL CODE UP WAS WRITTEN BY AUTHORS OF WORDPRESS-BOOTSTRAP
+// beneath is code added by Michał Garmulewicz 
 
-// // in all of the beaneath add_db_tables please note id_comlumn auto-resolving to id
 add_db_table_editor(array( 'title'=>'Oceny', 'table'=>'grades')); 
 add_db_table_editor(array( 'title'=>'Nagrody i Wyróżnienia', 'table'=>'awards')); 
 add_db_table_editor(array( 'title'=>'Obecnie realizowane przedmioty', 'table'=>'current')); 
